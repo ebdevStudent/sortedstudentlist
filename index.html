@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sorted Student List</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script>
+
+</head>
+<body>
+    <center>
+        <h3 style="margin:20px;">List of Students</h3>
+        <div id="rows">
+            <span>1</span>
+            <input id="Name_1" type="text" placeholder="Put the name of a student">
+           <br>
+            <span>2</span>
+            <input id="Name_2" type="text" placeholder="Put the name of a student">
+            <br>
+            <span>3</span>
+            <input id="Name_3" type="text" placeholder="Put the name of a student">
+            <br>
+            <span>4</span>
+            <input id="Name_4" type="text" placeholder="Put the name of a student">
+            <br>
+        </div>
+        <button onclick="submit()" id="SUBT" >Submit</button>
+        <div id="with_commas" style="background-color:lightgreen;"></div>
+        <div id="without_commas" style="background-color:red;"></div>
+        <button onclick="sort()" id="SRBT" style="display:none;">Sort</button>
+    </center>  
+</body>
+</html>
